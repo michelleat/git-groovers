@@ -8,5 +8,5 @@ class StringInstrument:
         self.name = name
         self.type = "string"
 
-    def play_chord(chord: Chords):
+    def play_chord(self, chord: Chords):
         print("playing the chord")
